@@ -1,0 +1,29 @@
+{
+  "name": "project-forward",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@vueuse/integrations": "^10.3.0",
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.9",
+    "universal-cookie": "^4.0.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "vite": "^4.4.6",
+    "vite-plugin-windicss": "^1.9.0",
+    "windicss": "^3.5.6"
+  }
+}
